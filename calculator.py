@@ -6,7 +6,7 @@ import argparse
 def calculate(operation, left, right):
     """Calculate a result for the requested operation."""
     if operation == "add":
-        return left + right + 3
+        return left + right
     if operation == "subtract":
         return left - right
     if operation == "multiply":
